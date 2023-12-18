@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+#header {
+    max-width: 600px;
+    border-bottom: 1px solid #0e1323;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#header a {
+    color: maroon;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#header a:last-of-type {
+    margin-right: 0;
+}
+
+#header #theme {
+    color: #0086e7;
+    font-weight: bold;
+}
+
+#logo {
+    text-align: center;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+form {
+    color: #ffffff;
+    background-color: #1a1a1a;
+    max-width: 570px;
+    border-radius: 3px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+input[type="text"] {
+    color: red;
+    background-color: black;
+    width: 78.07%;
+    border: none;
+    padding: 0.17632%;
+    outline: none;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: red;
+    font-weight: normal;
+    width: 15.79%;
+    border: none;
+    margin-left: 2.63%;
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
+}
+
+#text {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+#text h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+#text h2 {
+    color: #616a8a;
+    font-size: 14px;
+    margin: 15px 0 0 0;
+}
+
+#text p {
+    color: #616a8a;
+    line-height: 24px;
+    text-align: justify;
+    margin: 15px 0 0 0;
+}
+
+#text span {
+    font-weight: bold;
+    color: red;
+}
+
+#text a {
+    color: #616a8a;
+}
+
+#footer {
+    text-align: center;
+    max-width: 600px;
+    border-top: 1px solid #0e1323;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+#footer a {
+    color: #616a8a;
+    text-decoration: none;
+    margin-right: 15px;
+}
+#footer a:last-of-type {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header div {
+        border-bottom: 1px solid #0e1323;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    #header div:first-of-type a:nth-child(3) {
+        display: none;
+    }
+
+    input[type="text"] {
+        width: 73.07%;
+    }
+
+    input[type="submit"] {
+        width: 20.79%;
+    }
+
+    #text {
+        width: 92%;
+    }
+
+    #footer a {
+        font-size: 12px;
+    }
+}
