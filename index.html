@@ -23,7 +23,7 @@
     </div>
     <form autocomplete="off" method="post" style="text-align: center; padding-bottom: 20px; padding-top: 17px;">
         <button style=" transition: background-color 0.3s; cursor: pointer; float: right; background-color: #516b79; border: none; border-radius: 5px; width: 50px; color: white; padding: 8px; width: 13%;" id="generate-button" type="button">Generate</button>
-        <input id="username" readonly="" style=" font-size: 25px; font-family:cursive; color:white; border: 1px solid black;background-color: #333;text-align: center;margin-left: 10px;width: 400px;height: 50px;">
+        <input id="username" readonly="" style=" font-size: 25px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color:white; border: 1px solid black;background-color: #333;text-align: center;margin-left: 10px;width: 400px;height: 50px;">
         
         
     </form>
@@ -1559,6 +1559,12 @@
 
 
 <style>
+
+
+
+
+
+
     body {
     background-color: black;
     font-family: Arial, sans-serif;
@@ -1634,4 +1640,26 @@ input[type="submit"] {
     width: 15.79%;
     border: none;
     margin-left: 2; }
+    
+    
+    @media only screen and (max-width: 600px) {
+    #generate-button {
+        width: 100%; 
+        padding: 10px; 
+    }
+    }
+
+    @media only screen and (max-width: 600px) {
+    #username {
+        width: 80%;
+        margin: 10px auto; 
+    }
+}
+
+
+
+
+
+    
+    
     </style>
